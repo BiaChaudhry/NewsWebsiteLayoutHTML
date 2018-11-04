@@ -1,0 +1,298 @@
+// can be found here: http://seblog1312.blogspot.com/2018/10/news-website-layout.html
+
+<!DOCTYPE html>
+<html>
+<head><title>bbc</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+ @media screen and (min-width: 480px) {
+ 
+    li{display: block;
+      text-decoration: none;
+      text-align: left;
+      color: red;
+      padding: inherit;
+      font-size: 17px;
+      margin: auto;
+      border-right: 1px solid white;}
+    
+}
+       
+    body{
+        
+      
+        font-family: sans-serif;
+    }
+    h3{
+        font-family: sans-serif;
+        color: dimgray;
+        text-align: right;
+       
+    }
+    
+    h2{
+        text-align: right;
+        border-bottom: 2px solid black;
+    }
+   
+
+#nav_bar{
+        
+        text-align: center;
+         overflow: hidden;
+        
+
+    }   
+    ul{
+        
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+       
+    }
+li{
+      display: inline-block;
+      text-decoration: none;
+      text-align: left;
+      color: white;
+      padding: inherit;
+      font-size: 17px;
+      margin: auto;
+      border-right: 1px solid white;
+             
+    }   
+    
+a{
+        
+    text-decoration:none;
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+    
+    }
+    a:hover{
+        border-bottom: 5px solid red;
+    }
+    
+    
+ 
+    
+    .left{
+         
+        width: 60%;
+        float: left;
+        
+        
+    }
+    .right_main{
+        
+        float: left;
+        width: 39%;
+        height: 50%;
+        
+    }
+    .right1 img{
+        float: left;
+        border: 2px solid gray;
+        width: 45%;
+        height: 60%;
+        
+        
+        
+        
+    }
+    .right2 img{
+        border: 2px solid gray;
+        clear: right;
+        float: left;
+      
+        width: 45%;
+        height: 60%;
+        
+    }
+    
+    
+    
+    
+    #latest{
+        
+        border: 2px solid white;
+        background-color: darkred;
+        float: right;
+        font-family: sans-serif;
+        font-size: 20px;
+        
+    }
+    
+    table{
+        text-align: center;
+        height: 100px;
+    }
+    td{
+        border: 2px solid white;
+        height: 112px;
+        width: 350px;
+        color: white;
+    }
+    
+
+    .clear{
+        clear: left;
+    }
+    
+    p{
+        text-align: center;
+        font-family: cursive;
+    }
+
+ 
+    
+    #weatherWidget{
+        background-color: darkred;
+    }
+    
+    .left:hover .img{
+        opacity: 0.3;
+        
+    }
+    .right1:hover .img{
+        opacity: 0.3;
+    }
+    .right2:hover .img{
+        opacity: 0.3;
+    }
+    
+    
+   
+</style>    
+    </head>
+    
+    <body>
+    <div id="container">  
+    <div id="nav_bar">
+        <ul>
+            <li><img src="https://pmcvariety.files.wordpress.com/2014/01/bbc-logo.jpg?w=700&h=393&crop=1" width="90px" height="35px"></li>
+            <li><a href="#signIn">Sign In</a></li>
+            <li></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#sports">Sport</a></li>
+            <li><a href="#weather">Weather</a></li>      
+            <li><a href="#shop">Shop</a></li>      
+            <li><a href="#earth">Earth</a></li>      
+            <li><a href="#travel">Travel</a></li>      
+            <li><a href="#capital">Capital</a></li>      
+        </ul>
+    </div>
+        <h1>Welcome to Banana News Network</h1>
+        <h3>27 September, 2018.</h3>
+    <!-- upper -->
+        
+        <div class="left">
+        <img src="https://cdn.pixabay.com/photo/2018/09/18/11/36/arrangement-3685962__340.jpg" width="750px" height="305px" class="img">  
+        </div>
+        
+        
+        <div class="right_main">
+            <div class="right1"><img src="https://cdn.pixabay.com/photo/2015/11/07/12/02/business-1031754__340.jpg"  class="img"></div>
+            <div class="right1"><img  src="https://cdn.pixabay.com/photo/2012/03/02/00/45/chinese-20910__340.jpg"  class="img"></div>
+            <div class="right2"><img  src="https://cdn.pixabay.com/photo/2017/08/10/08/47/code-2620118__340.jpg"  class="img"></div>
+            <div class="right2"><img  src="https://cdn.pixabay.com/photo/2016/08/15/16/03/newspaper-1595773__340.jpg"  class="img"></div>
+        </div>
+        <div> 
+        <div class="left">
+    <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        </div>
+        
+        <div class="right_main">
+            <div class="right1"><p>Click to view Four New Business News...</p>
+        </div>
+            
+        </div>
+            
+    
+
+        <div id="table">
+        <table>
+  <tr cellspacing="0">
+  <td  ><img class="img" src="https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790__340.jpg" style="width:425px; height:auto; "></td>
+  <td  ><img class="img" src="https://cdn.pixabay.com/photo/2015/08/20/20/07/cereal-898073__340.jpg" style="width:425px; height:auto; "></td>
+  <td  ><img class="img" src="https://cdn.pixabay.com/photo/2016/09/03/20/48/bananas-1642706__340.jpg" style="width:425px; height:auto; "></td>
+  </tr>
+  <tr>
+  <td style="font-size=20px; text-align: center; "><b><a style="color: black" href="https://en.wikipedia.org/wiki/Banana" target="blank">Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a></b></td>
+  <td style="font-size=20px; text-align: center;"><b><a style="color: black"  href="https://en.wikipedia.org/wiki/Banana_leaf_rice" target="blank">Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a></b></td>
+   <td style="font-size=20px; text-align: center; color: black"><b><a style="color: black" href="https://en.wikipedia.org/wiki/Banana_leaf" target="blank">Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a></b></td>
+  </tr> 
+        </table>
+        </div>
+            
+  
+        
+        <div id="latestNewsSide">
+        
+        <div id="main_Image">
+            <img src="https://cdn.pixabay.com/photo/2018/03/06/19/33/tree-3204332__340.jpg" width="70%" height="auto">
+            <div id="latest">
+            <table>
+                <tr>
+                    <td>
+                    NEWS ABOUT EDUCATION
+                    </td>
+                
+                </tr><tr>
+                    <td>
+                    NEWS ABOUT SCIENCE
+                    </td>
+                
+                </tr><tr>
+                    <td>
+                    NEWS ABOUT POLITICIS
+                    </td>
+                
+                </tr><tr>
+                    <td>
+                    NEWS ABOUT PROGRAMMING
+                    </td>
+                
+                </tr><tr>
+                    <td>
+                    NEWS ABOUT TECHNOLOGY
+                    </td>
+                
+                </tr>
+                
+            </table>
+            
+            </div>
+            
+        </div>
+            
+        
+        
+        
+        
+        
+        </div>
+        <div id="weatherWidget"><!-- weather widget start --><a target="_blank" href="http://www.booked.net/weather/islamabad-2124"><img src="https://w.bookcdn.com/weather/picture/3_2124_1_1_137AE9_430_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=48814"  alt="booked.net"/></a><!-- weather widget end --></div>
+   
+    <footer id="maps">
+            
+           <center>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26549.220817044374!2d73.0536014260324!3d33.71793710859726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf9bc116caa3%3A0x337cd6075e732737!2sBlue+Area%2C+Islamabad%2C+Islamabad+Capital+Territory%2C+Pakistan!5e0!3m2!1sen!2s!4v1538065520853" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </center>
+            
+           <div class="bg-primary">&copy; bananaNewsNetwork 2018  </div>   
+        </footer>
+
+    
+    </div>  
+  
+    </body>
+
+</html>
